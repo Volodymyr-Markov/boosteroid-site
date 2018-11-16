@@ -1,0 +1,1572 @@
+@media only screen and (min-width:1100px) and (max-width:1379px) {
+  .wrap {
+    width: 100%;
+    max-width: 1024px;
+  }
+
+  nav {
+    width: 68%;
+  }
+
+  .menu>li:nth-child(4) {
+    flex: 8 1 75px;
+    text-align: end;
+  }
+
+  .video_block video {
+    width: 960px;
+    height: 540px;
+  }
+
+  #our_solutions {
+    height: auto;
+  }
+
+  .solutions_container div:nth-child(4):hover h3:after,
+  .solutions_container div:nth-child(6):hover h3:after,
+  .solutions_container div:hover h3:before {
+    width: 155%;
+  }
+
+  .boostore_content h3,
+  .internet_content h3,
+  .produt_new_level div h3 {
+    font-size: 26px;
+  }
+
+  .boostore_content p,
+  .internet_content p,
+  .produt_new_level div p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .game_container {
+    width: 160px;
+    height: 215px;
+  }
+
+  .game_container .game_img {
+    width: 146px;
+    height: 155px;
+  }
+
+}
+
+@media only screen and (min-width:960px) and (max-width:1099px) {
+  .wrap {
+    width: 100%;
+    max-width: 880px;
+  }
+
+  nav {
+    width: 70%;
+  }
+
+  .menu>li {
+    flex: 2 1 75px;
+  }
+
+  .menu>li:nth-child(4) {
+    flex: 3 1 75px;
+  }
+
+  #video {
+    max-height: 650px;
+    padding: 20px 0;
+  }
+
+  .video_block video {
+    width: 800px;
+    height: 480px;
+  }
+
+  #our_solutions {
+    height: auto;
+  }
+
+  .solutions_container div:nth-child(4):hover h3:after,
+  .solutions_container div:nth-child(6):hover h3:after,
+  .solutions_container div:hover h3:before {
+    width: 150%;
+  }
+
+  .boostore_wrapper {
+    margin-top: 0;
+  }
+
+  .boostore_content h3,
+  .internet_content h3,
+  .produt_new_level div h3 {
+    font-size: 22px;
+  }
+
+  .boostore_content p,
+  .internet_content p,
+  .produt_new_level div p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .boostore_image {
+    width: 562px;
+    height: 406px;
+  }
+
+  #tranding_games {
+    height: 60vh;
+  }
+
+  #produt_new_level {
+    height: 40vh;
+  }
+
+  footer {
+    height: 320px;
+    padding-top: 40px;
+  }
+
+  footer div h4 {
+    font-size: 10px;
+  }
+
+  .rights p {
+    font-size: 10px;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  #tranding_games {
+    height: 650px;
+  }
+
+  .game_container {
+    margin-top: 10px;
+  }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+  .wrap {
+    width: 100%;
+    max-width: 730px;
+  }
+
+  nav {
+    width: 70%;
+  }
+
+  .menu>li {
+    flex: 2 1 75px;
+  }
+
+  .menu>li:nth-child(4) {
+    flex: 1 1 75px;
+  }
+
+  .submenu li {
+    list-style-type: none;
+    margin-right: 50px;
+  }
+
+  .buttons .explore {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  nav ul li,
+  .our_solutions_menu ul {
+    font-size: 12px;
+  }
+
+  .slogan_block p {
+    font-size: 60px;
+  }
+
+  .slogan_description,
+  .gaming_description {
+    line-height: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #9B99AD;
+    margin: 0 auto;
+  }
+
+  .buttons .sing_in {
+    margin-right: 14px;
+  }
+
+  #video {
+    height: calc(100vh + 50px);
+    position: relative;
+  }
+
+  .video_block video {
+    display: block;
+    background: #000;
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+  }
+
+  /*Section OUR SOLUTION*/
+
+  #our_solutions {
+    height: auto;
+  }
+
+  .solutions_header h2,
+  .tranding_games_header h2 {
+    font-size: 28px;
+  }
+
+  .solutions_header p {
+    font-size: 12px;
+  }
+
+
+  .solutions_container div:nth-child(4):hover h3:after,
+  .solutions_container div:nth-child(6):hover h3:after,
+  .solutions_container div:hover h3:before {
+    width: 150%;
+  }
+
+  /**/
+
+  #produt_new_level {
+    height: 60vh;
+  }
+
+  .produt_new_level div {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boostore_wrapper {
+    height: 510px;
+    margin-top: 0;
+  }
+
+  .boostore_content h3,
+  .internet_content h3,
+  .produt_new_level div h3 {
+    font-size: 22px;
+  }
+
+  .internet_content {
+    margin-left: 0;
+  }
+
+  .boostore_content p,
+  .internet_content p,
+  .produt_new_level div p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .boostore_image {
+    width: 562px;
+    height: 314px;
+  }
+
+  footer {
+    height: 255px;
+    padding-top: 40px;
+  }
+
+  footer div h4 {
+    font-size: 10px;
+  }
+
+  .rights p {
+    font-size: 10px;
+  }
+
+  footer .footer_content ul li {
+    margin-bottom: 3px;
+  }
+
+  .footer_content {
+    height: 175px;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  .legal_terms {
+    flex-basis: 20%;
+  }
+
+  .rights {
+    flex-basis: 30%;
+  }
+
+  .section_two_wrapper,
+  .section_three_wrapper {
+    flex-direction: column;
+  }
+
+  #tranding_games {
+    height: 650px;
+  }
+
+  .game_container {
+    margin-top: 10px;
+  }
+
+  .right_side,
+  .left_side {
+    width: 100%;
+  }
+
+  .gaming_process,
+  .high_frame_rate {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .section_three_wrapper {
+    flex-direction: column-reverse;
+  }
+
+}
+
+@media only screen and (min-width:640px) and (max-width:767px) {
+  .wrap {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .mobile_burger_menu {
+    display: flex;
+  }
+
+  /*menu*/
+  nav {
+    width: auto;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 76px;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.8);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s linear;
+  }
+
+  .menu>li {
+    width: 100%;
+    flex: 0 1 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-position: inside;
+    text-align: start;
+    line-height: normal;
+  }
+
+  .menu>li a {
+    font-size: 14px;
+  }
+
+  nav .menu>li:nth-child(1) {
+    position: relative;
+  }
+
+  .menu>li:nth-child(4),
+  .menu>li:nth-child(5) {
+    flex: 0 1 auto;
+    text-align: start;
+    color: inherit;
+    text-transform: none;
+  }
+
+  .menu>li:nth-child(4) a {
+    font-size: 14px;
+    color: #2293DA;
+    text-transform: uppercase;
+  }
+
+  .menu>li:nth-child(5) a {
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2293DA;
+    ;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .menu li {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0;
+  }
+
+  ul li:hover>ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    transition: all 0.5s linear;
+  }
+
+  .submenu {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-transform: capitalize;
+    display: none;
+    background: #F8F7FF;
+    line-height: normal;
+    transition: all 0.3s;
+    position: static;
+  }
+
+  .submenu li {
+    width: 20%;
+    list-style-type: none;
+    margin-right: 0;
+  }
+
+  .menu>li:hover .submenu {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-transform: capitalize;
+    background: none;
+    line-height: normal;
+    transition: all 0.3s;
+    position: static;
+    transform: translateX(0);
+    margin-left: 20px;
+  }
+
+  .submenu ul li {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  .submenu ul li a {
+    color: #100a25;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  /*menu end*/
+
+  .video_block video {
+    display: block;
+    background: #000;
+    width: 480px;
+    height: 320px;
+    border-radius: 10px;
+  }
+
+  nav ul li,
+  .our_solutions_menu ul {
+    font-size: 12px;
+  }
+
+  .slogan_block p {
+    font-size: 60px;
+  }
+
+  .slogan_description,
+  .gaming_description {
+    line-height: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #9B99AD;
+    margin: 0 auto;
+  }
+
+  .solutions_header h2,
+  .tranding_games_header h2 {
+    font-size: 28px;
+  }
+
+  .solutions_header p {
+    font-size: 12px;
+  }
+
+  #our_solutions {
+    height: auto;
+  }
+
+  .solutions_container div:nth-child(4):hover h3:after,
+  .solutions_container div:nth-child(6):hover h3:after,
+  .solutions_container div:hover h3:before {
+    width: 140%;
+  }
+
+  .solutions_container div h3 {
+    font-size: 18px;
+  }
+
+  .internet_wrapper {
+    height: 420px;
+  }
+
+  .produt_new_level div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boostore_wrapper {
+    height: 510px;
+  }
+
+  .boostore_content {
+    margin-left: 25px;
+  }
+
+  .boostore_content h3,
+  .internet_content h3,
+  .produt_new_level div h3 {
+    font-size: 22px;
+  }
+
+  .internet_content {
+    margin-left: 0;
+  }
+
+  .boostore_content p,
+  .internet_content p,
+  .produt_new_level div p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .boostore_image {
+    width: 562px;
+    height: 278px;
+  }
+
+  footer {
+    height: 255px;
+    padding-top: 40px;
+  }
+
+  footer div h4 {
+    font-size: 10px;
+  }
+
+  .rights p {
+    font-size: 10px;
+  }
+
+  footer .footer_content ul li {
+    margin-bottom: 3px;
+  }
+
+  .footer_content {
+    height: 175px;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  .legal_terms {
+    flex-basis: 20%;
+  }
+
+  .rights {
+    flex-basis: 30%;
+  }
+
+  .section_two_wrapper,
+  .section_three_wrapper {
+    flex-direction: column;
+  }
+
+  #tranding_games {
+    height: 650px;
+  }
+
+  .game_container {
+    margin-top: 10px;
+  }
+
+  .right_side,
+  .left_side {
+    width: 100%;
+  }
+
+  .high_frame_rate,
+  .gaming_process {
+    height: 375px;
+    width: 600px;
+  }
+
+  .gaming_process,
+  .high_frame_rate {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .section_three_wrapper {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width:639px) {
+  .wrap {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  /*menu*/
+
+  .mobile_burger_menu {
+    display: flex;
+  }
+
+  nav {
+    width: auto;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 76px;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.8);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s linear;
+  }
+
+  .menu>li {
+    width: 100%;
+    flex: 0 1 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-position: inside;
+    text-align: start;
+    line-height: normal;
+  }
+
+  .menu>li a {
+    font-size: 14px;
+  }
+
+  nav .menu>li:nth-child(1) {
+    position: relative;
+  }
+
+  .menu>li:nth-child(4),
+  .menu>li:nth-child(5) {
+    flex: 0 1 auto;
+    text-align: start;
+    color: inherit;
+    text-transform: none;
+  }
+
+  .menu>li:nth-child(4) a {
+    font-size: 14px;
+    color: #2293DA;
+    text-transform: uppercase;
+  }
+
+  .menu>li:nth-child(5) a {
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2293DA;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .menu li {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0;
+  }
+
+  ul li:hover>ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    transition: all 0.5s linear;
+  }
+
+  .submenu {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-transform: capitalize;
+    display: none;
+    background: #F8F7FF;
+    line-height: normal;
+    transition: all 0.3s;
+    position: static;
+  }
+
+  .submenu li {
+    width: 20%;
+    list-style-type: none;
+    margin-right: 0;
+  }
+
+  .menu>li:hover .submenu {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-transform: capitalize;
+    background: none;
+    line-height: normal;
+    transition: all 0.3s;
+    position: static;
+    transform: translateX(0);
+    margin-left: 20px;
+  }
+
+  .submenu ul li {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  .submenu ul li a {
+    color: #100a25;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .slogan_wrap div p,
+  .gaming_description {
+    width: 440px;
+  }
+
+  /* end menu */
+
+  #video {
+    height: calc(100vh + 50px);
+    position: relative;
+  }
+
+  .video_block video {
+    display: block;
+    background: #000;
+    width: 480px;
+    height: 320px;
+    border-radius: 10px;
+  }
+
+  .mobile_burger_menu {
+    display: flex;
+  }
+
+  .mobile_menu {
+    position: absolute;
+    top: 76px;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.8);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s linear;
+  }
+
+  .mobile_menu ul {
+    margin: 5px 0px;
+  }
+
+  .submenu_header {
+    background: url('../img/pointer-up.png') no-repeat right 50%;
+    padding-right: 15px;
+  }
+
+  .mobile_menu ul ul {
+    display: none;
+    height: auto;
+  }
+
+  .mobile_menu li {
+    list-style: none;
+    list-style-position: inside;
+    display: inline;
+    position: relative;
+  }
+
+  .mobile_menu li a {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .mobile_menu li {
+    display: block;
+    text-decoration: none;
+    color: #1B1B27;
+    width: 80%;
+    margin: 0 auto 0;
+    text-transform: uppercase;
+  }
+
+  ul li:hover>ul {
+    display: block;
+    height: auto;
+    transition: all 0.5s linear;
+  }
+
+  ul li:hover>.submenu_header {
+    background: url('../img/pointer-down.png') no-repeat right 50%;
+    padding-right: 15px;
+  }
+
+  .submenu ul li {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .submenu ul li a {
+    color: #100a25;
+  }
+
+  nav ul li,
+  .our_solutions_menu ul {
+    font-size: 12px;
+  }
+
+  .slogan_block p {
+    font-size: 38px;
+  }
+
+  .slogan_description,
+  .gaming_description {
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #9B99AD;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  #our_solutions {
+    height: auto;
+  }
+
+  #our_solutions .solutions_container {
+    height: auto;
+  }
+
+  .solutions_header {
+    text-align: center;
+  }
+
+  .solutions_header h2,
+  .tranding_games_header h2 {
+    font-size: 28px;
+  }
+
+  .solutions_header p {
+    font-size: 12px;
+    line-height: inherit;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .solutions_container div:nth-child(4):hover h3:after,
+  .solutions_container div:nth-child(6):hover h3:after,
+  .solutions_container div:hover h3:before {
+    width: 80%;
+  }
+
+  .solutions_container div h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .internet_boosteroid {
+    display: none;
+  }
+
+  .internet_content {
+    width: 70%;
+  }
+
+  #internet {
+    background: url('../img/internet-boosteroid.png') no-repeat center;
+    margin: 40px 0;
+  }
+
+  .internet_wrapper {
+    height: 420px;
+    margin-top: 0;
+  }
+
+  #boostore {
+    text-align: center;
+  }
+
+  .boostore_wrapper {
+    margin-top: 0;
+  }
+
+  .boostore_image {
+    display: none;
+  }
+
+  .can-toggle {
+    margin: 0 auto;
+  }
+
+  .produt_new_level div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boostore_wrapper {
+    height: 450px;
+  }
+
+  .boostore_content {
+    margin-left: 0;
+  }
+
+  .boostore_content h3,
+  .internet_content h3,
+  .produt_new_level div h3 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .internet_content {
+    margin-left: 0;
+  }
+
+  .boostore_content p,
+  .internet_content p,
+  .produt_new_level div p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .boostore_image {
+    width: 562px;
+    height: 278px;
+  }
+
+  footer {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer div h4 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .produt_new_level div {
+    width: 90%;
+  }
+
+  .rights p {
+    font-size: 10px;
+  }
+
+  footer .footer_content ul li {
+    margin-bottom: 3px;
+  }
+
+  .footer_content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  .social_network {
+    margin: 10px 0;
+  }
+
+  .rights {
+    flex: 0 0 480px;
+  }
+
+  .legal_terms,
+  .out_solutions,
+  .about,
+  .support {
+    flex: 0 0 230px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .rights,
+  .legal_terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section_two_wrapper,
+  .section_three_wrapper {
+    flex-direction: column;
+  }
+
+  #tranding_games {
+    height: 650px;
+  }
+
+  .game_container {
+    margin-top: 10px;
+  }
+
+  .right_side {
+    width: 100%;
+    height: 280px;
+  }
+
+  .left_side {
+    width: 100%;
+  }
+
+  .high_frame_rate,
+  .gaming_process {
+    height: 280px;
+    width: 460px;
+  }
+
+  .gaming_process,
+  .high_frame_rate {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .section_three_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .section_two_content,
+  .section_three_content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  #tranding_games {
+    height: auto;
+  }
+
+  .top_games {
+    height: auto;
+  }
+
+  .section_two_wrapper,
+  .section_three_wrapper {
+    height: 510px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+  .wrap {
+    width: 100%;
+    max-width: 320px;
+    padding: 0 20px;
+  }
+
+  /*menu*/
+
+  .mobile_burger_menu {
+    display: flex;
+  }
+
+  nav {
+    width: auto;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 76px;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.8);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s linear;
+  }
+
+  .menu>li {
+    width: 100%;
+    flex: 0 1 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-position: inside;
+    text-align: start;
+    line-height: normal;
+  }
+
+  .menu>li a {
+    font-size: 14px;
+  }
+
+  nav .menu>li:nth-child(1) {
+    position: relative;
+  }
+
+  .menu>li:nth-child(4),
+  .menu>li:nth-child(5) {
+    flex: 0 1 auto;
+    text-align: start;
+    color: inherit;
+    text-transform: none;
+  }
+
+  .menu>li:nth-child(4) a {
+    font-size: 14px;
+    color: #2293DA;
+    text-transform: uppercase;
+  }
+
+  .menu>li:nth-child(5) a {
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2293DA;
+    ;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .menu li {
+    text-decoration: none;
+    color: #1B1B27;
+    margin: 0;
+  }
+
+  ul li:hover>ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    transition: all 0.5s linear;
+  }
+
+  .submenu {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-transform: capitalize;
+    display: none;
+    background: #F8F7FF;
+    line-height: normal;
+    transition: all 0.3s;
+    position: static;
+  }
+
+  .submenu li {
+    width: 20%;
+    list-style-type: none;
+    margin-right: 0;
+  }
+
+  .menu>li:hover .submenu {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-transform: capitalize;
+    background: none;
+    line-height: normal;
+    transition: all 0.3s;
+    position: static;
+    transform: translateX(0);
+    margin-left: 20px;
+  }
+
+  .submenu ul li {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  .submenu ul li a {
+    color: #100a25;
+  }
+
+  /* end menu */
+  h1 {
+    font-size: 30px;
+  }
+
+  .slogan_wrap div p,
+  .gaming_description {
+    width: 300px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  #video {
+    height: 100%;
+    position: relative;
+    min-height: 300px;
+  }
+
+  .video_block video {
+    display: block;
+    background: #000;
+    width: 320px;
+    height: 240px;
+    border-radius: 10px;
+  }
+
+  .main_navigation {
+    margin: 0 auto;
+  }
+
+  .mobile_burger_menu {
+    display: flex;
+  }
+
+  .slogan_block p {
+    font-size: 28px;
+  }
+
+  .slogan_description,
+  .gaming_description {
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #9B99AD;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  #our_solutions {
+    height: 100%;
+  }
+
+  #our_solutions .solutions_container {
+    height: auto;
+  }
+
+  .solutions_container div {
+    flex-basis: 100%;
+  }
+
+  .solutions_header {
+    text-align: center;
+  }
+
+  .solutions_header h2,
+  .tranding_games_header h2 {
+    font-size: 28px;
+  }
+
+  .solutions_header p {
+    font-size: 12px;
+    line-height: inherit;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* .solutions_container .item_block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-right: 0px;
+  }
+
+  .item_block div {
+    background-color: #fff;
+    position: relative;
+    margin: 0 5px 5px 0;
+    padding: 25px 0 0 30px;
+  }
+
+  .item_block {
+    width: 320px;
+  } */
+
+  .solutions_container div:nth-child(4):hover h3:after,
+  .solutions_container div:nth-child(6):hover h3:after,
+  .solutions_container div:hover h3:before {
+    width: 135%;
+  }
+
+  .item_block div h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .internet_boosteroid {
+    display: none;
+  }
+
+  .internet_content {
+    width: 70%;
+  }
+
+  #internet {
+    background: url('../img/internet-boosteroid.png') no-repeat center;
+  }
+
+  .internet_wrapper {
+    height: 420px;
+    margin-top: 50px;
+  }
+
+  #boostore {
+    text-align: center;
+  }
+
+  .boostore_image {
+    display: none;
+  }
+
+  .can-toggle {
+    margin: 0 auto;
+  }
+
+  #produt_new_level {
+    margin: 20px 0;
+  }
+
+  .produt_new_level div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boostore_wrapper {
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  .boostore_content {
+    margin-left: 0;
+  }
+
+  .boostore_content h3,
+  .internet_content h3,
+  .produt_new_level div h3 {
+    font-size: 26px;
+    margin: 0 auto 10px;
+  }
+
+  .internet_content {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .boostore_content p,
+  .internet_content p,
+  .produt_new_level div p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .boostore_image {
+    width: 562px;
+    height: 278px;
+  }
+
+  footer {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer div h4 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .produt_new_level div {
+    width: 90%;
+  }
+
+  .rights p {
+    font-size: 10px;
+  }
+
+  footer .footer_content ul li {
+    margin-bottom: 3px;
+  }
+
+  .footer_content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  .social_network {
+    margin: 10px 0;
+  }
+
+  .rights {
+    flex: 1 1 320px;
+  }
+
+  .legal_terms,
+  .out_solutions,
+  .about,
+  .support {
+    flex: 0 0 230px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .rights,
+  .legal_terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section_two_wrapper,
+  .section_three_wrapper {
+    flex-direction: column;
+    height: 450px;
+  }
+
+  #tranding_games {
+    height: 650px;
+  }
+
+  .game_container {
+    margin-top: 10px;
+  }
+
+  .right_side {
+    width: 100%;
+    height: 200px;
+  }
+
+  .left_side {
+    width: 100%;
+  }
+
+  .high_frame_rate,
+  .gaming_process {
+    height: 200px;
+    width: 300px;
+  }
+
+  .gaming_process,
+  .high_frame_rate {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .section_three_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .section_two_content,
+  .section_three_content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .section_two_content h3,
+  .section_three_content h3 {
+    font-size: 24px;
+  }
+
+  #tranding_games {
+    height: auto;
+  }
+
+  .top_games {
+    height: auto;
+  }
+
+  .section_two_wrapper,
+  .section_three_wrapper {
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .tranding_games_content {
+    margin: 15px 0;
+  }
+}
