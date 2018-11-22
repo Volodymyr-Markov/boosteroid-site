@@ -1,6 +1,37 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
+
     let toggle = document.getElementById('toggle');
+    if ($(document).scrollTop() + $(window).height() > $('#slogan').offset().top && $(document).scrollTop() - $('#slogan').offset().top < $('#slogan').height()){
+      $('header, .scroller>a').delay(2000).animate({
+        'opacity': '1'
+      }, 1000);
+      $('.slogan_wrap>img').delay(3500).animate({
+        'opacity': '1'
+      }, 1500);
+    } else {
+      $('header, .scroller>a').css({'opacity': '1'});
+      $('.slogan_wrap>img').css({'opacity': '1'});
+    }
+    //fadein efect for header and background
+    // $('.fixed_header, .scroller>a').delay(1000).fadeIn('slow');
+    $('header, .scroller>a').delay(2000).animate({
+      'opacity': '1'
+    }, 1000);
+    $('.slogan_wrap>img').delay(3500).animate({
+      'opacity': '1'
+    }, 1500);
+
+    //sticky header
+    $(window).scroll(function () {
+      if ($(window).scrollTop() >= 1) {
+        $('header').addClass('sticky');
+        $('#slogan').css({'height': '100vh', 'padding-top' : '76px'});
+      } else {
+        $('header').addClass('sticky');
+      }
+    });
+
 
     /*Scroller*/
     $(function () {
@@ -49,6 +80,14 @@
       })
     };
 
+    //Hide menu when user click on .submenu_header
+
+    //Hide menu when appear OUR SOLUTION section
+    $('.submenu_header').click(function () {
+      $('.submenu').slideToggle("fast");
+      $('.submenu_header').toggleClass('pointer_up');
+    });
+
     // Toggle view of burger menu
     $(document).ready(function ($) {
       $('.mobile_burger_menu').click(function () {
@@ -65,6 +104,7 @@
         let width = document.body.clientWidth;
         if (width < 768) {
           $('.menu').css('display', 'none');
+          $('.submenu').css('display', 'none');
         } else if (width >= 768) {
           $('.menu').css('display', 'flex');
         };

@@ -1,4 +1,8 @@
 /* Animaton */
+/* animate header*/
+
+/* animate scroller*/
+
 /* internet section */
 $(window).scroll(function () {
   $('.internet_boosteroid img').each(function () {
@@ -9,12 +13,12 @@ $(window).scroll(function () {
     if (elPosition < windowTop + windowHeight - elHeight / 2) {
       $(this).addClass("animation fade-in-right");
     } //добавляет класс, когда элемент находится полностью в видимой области окна
-    if (elPosition > windowTop + windowHeight) {
-      $(this).removeClass("animation fade-in-right");
-    } //убирает класс, когда элемент не виден в окне
-    if (elPosition + elHeight < windowTop) {
-      $(this).removeClass("animation fade-in-right");
-    } //убирает класс, когда элемент не виден в окне
+    // if (elPosition > windowTop + windowHeight) {
+    //   $(this).removeClass("animation fade-in-right");
+    // } //убирает класс, когда элемент не виден в окне
+    // if (elPosition + elHeight < windowTop) {
+    //   $(this).removeClass("animation fade-in-right");
+    // } //убирает класс, когда элемент не виден в окне
   });
 });
 
@@ -28,12 +32,12 @@ $(window).scroll(function () {
     if (elPosition < windowTop + windowHeight - elHeight / 2) {
       $(this).addClass("animation fade-in-left");
     } //добавляет класс, когда элемент находится полностью в видимой области окна
-    if (elPosition > windowTop + windowHeight) {
-      $(this).removeClass("animation fade-in-left");
-    } //убирает класс, когда элемент не виден в окне
-    if (elPosition + elHeight < windowTop) {
-      $(this).removeClass("animation fade-in-left");
-    } //убирает класс, когда элемент не виден в окне
+    // if (elPosition > windowTop + windowHeight) {
+    //   $(this).removeClass("animation fade-in-left");
+    // } //убирает класс, когда элемент не виден в окне
+    // if (elPosition + elHeight < windowTop) {
+    //   $(this).removeClass("animation fade-in-left");
+    // } //убирает класс, когда элемент не виден в окне
   });
 });
 
@@ -47,14 +51,14 @@ $(window).scroll(function () {
     if (window.screen.availWidth <= 640) { // если разрешение дисплея меньша 640px, отобразить елемент и закончить выполнение кода.
       return $(this).css('visibility', 'visible');
     }
-    if (elPosition < windowTop + windowHeight - elHeight / 2) {
+    if (elPosition < windowTop + windowHeight - elHeight * 0.1) {
       $(this).addClass("animation fade-in-up");
     } //добавляет класс, когда элемент находится полностью в видимой области окна
-    if (elPosition > windowTop + windowHeight) {
-      $(this).removeClass("animation fade-in-up");
-    } //убирает класс, когда элемент не виден в окне
-    if (elPosition + elHeight < windowTop) {
-      $(this).removeClass("animation fade-in-up");
-    } //убирает класс, когда элемент не виден в окне
+    // if (elPosition > windowTop + windowHeight) {
+    //   $(this).removeClass("animation fade-in-up");
+    // } //убирает класс, когда элемент не виден в окне
+    // if (elPosition + elHeight < windowTop) {
+    //   $(this).removeClass("animation fade-in-up");
+    // } //убирает класс, когда элемент не виден в окне
   });
 });

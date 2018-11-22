@@ -13,19 +13,17 @@
     text-align: end;
   }
 
-  /* .video_block video {
+  .video_block video {
     width: 960px;
     height: 540px;
-  } */
+  }
 
   #our_solutions {
     height: auto;
   }
 
-  .solutions_container div:nth-child(4):hover h3:after,
-  .solutions_container div:nth-child(6):hover h3:after,
-  .solutions_container div:hover h3:before {
-    width: 155%;
+  .solutions_container>div:hover:before {
+    width: 80%;
   }
 
   .boostore_content h3,
@@ -76,10 +74,10 @@
     padding: 20px 0;
   }
 
-  /* .video_block video {
+  .video_block video {
     width: 800px;
     height: 480px;
-  } */
+  }
 
   #our_solutions {
     height: auto;
@@ -89,6 +87,22 @@
   .solutions_container div:nth-child(6):hover h3:after,
   .solutions_container div:hover h3:before {
     width: 150%;
+  }
+
+  .icons {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .icons img {
+    margin: 3px
+  }
+
+  .solutions_container>div:hover:before {
+    width: 70%;
+  }
+  #boostore {
+    height: auto;
   }
 
   .boostore_wrapper {
@@ -181,6 +195,24 @@
     font-size: 12px;
   }
 
+  .solutions_container>div {
+    padding: 30px;
+  }
+
+  .solutions_container>div:before {
+    top: 30px;
+    left: 30px;
+  }
+
+  .solutions_container>div:hover:before {
+    top: 30px;
+    left: 30px;
+  }
+
+  .solutions_container>div:hover:before {
+    width: 67%;
+  }
+
   .slogan_block p {
     font-size: 60px;
   }
@@ -203,13 +235,13 @@
     position: relative;
   }
 
-  /* .video_block video {
+  .video_block video {
     display: block;
     background: #000;
     width: 640px;
     height: 360px;
     border-radius: 10px;
-  } */
+  }
 
   /*Section OUR SOLUTION*/
 
@@ -225,12 +257,8 @@
   .solutions_header p {
     font-size: 12px;
   }
-
-
-  .solutions_container div:nth-child(4):hover h3:after,
-  .solutions_container div:nth-child(6):hover h3:after,
-  .solutions_container div:hover h3:before {
-    width: 150%;
+  #boostore {
+    height: auto;
   }
 
   /**/
@@ -477,13 +505,13 @@
 
   /*menu end*/
 
-  /* .video_block video {
+  .video_block video {
     display: block;
     background: #000;
     width: 480px;
     height: 320px;
     border-radius: 10px;
-  } */
+  }
 
   nav ul li,
   .our_solutions_menu ul {
@@ -516,10 +544,22 @@
     height: auto;
   }
 
-  .solutions_container div:nth-child(4):hover h3:after,
-  .solutions_container div:nth-child(6):hover h3:after,
-  .solutions_container div:hover h3:before {
-    width: 140%;
+  .solutions_container>div {
+    padding: 25px;
+  }
+
+  .solutions_container>div:before {
+    top: 25px;
+    left: 25px;
+  }
+
+  .solutions_container>div:hover:before {
+    top: 25px;
+    left: 25px;
+  }
+
+  .solutions_container>div:hover:before {
+    width: 67%;
   }
 
   .solutions_container div h3 {
@@ -530,10 +570,18 @@
     height: 420px;
   }
 
+  .internet_wrapper>img {
+    display: none;
+  }
+
   .produt_new_level div {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  #boostore {
+    height: auto;
   }
 
   .boostore_wrapper {
@@ -786,13 +834,13 @@
     position: relative;
   }
 
-  /* .video_block video {
+  .video_block video {
     display: block;
     background: #000;
     width: 480px;
     height: 320px;
     border-radius: 10px;
-  } */
+  }
 
   .mobile_burger_menu {
     display: flex;
@@ -892,6 +940,29 @@
 
   #our_solutions .solutions_container {
     height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .solutions_container>div {
+    width: 100%;
+  }
+
+  .solutions_container>div:nth-child(1),
+  .solutions_container>div:nth-child(6) {
+    height: auto;
+  }
+
+  .solutions_container>div:hover:before{
+    width: 80%;
   }
 
   .solutions_header {
@@ -908,12 +979,6 @@
     line-height: inherit;
     width: 90%;
     margin: 0 auto;
-  }
-
-  .solutions_container div:nth-child(4):hover h3:after,
-  .solutions_container div:nth-child(6):hover h3:after,
-  .solutions_container div:hover h3:before {
-    width: 80%;
   }
 
   .solutions_container div h3 {
@@ -939,8 +1004,17 @@
     margin-top: 0;
   }
 
+  .internet_content {
+    width: 100%;
+  }
+
+  .internet_wrapper>img {
+    display: none;
+  }
+
   #boostore {
     text-align: center;
+    height: auto;
   }
 
   .boostore_wrapper {
@@ -1275,13 +1349,13 @@
     min-height: 300px;
   }
 
-  /* .video_block video {
+  .video_block video {
     display: block;
     background: #000;
     width: 320px;
     height: 240px;
     border-radius: 10px;
-  } */
+  }
 
   .main_navigation {
     margin: 0 auto;
@@ -1311,10 +1385,28 @@
 
   #our_solutions .solutions_container {
     height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
-  .solutions_container div {
-    flex-basis: 100%;
+  .solutions_container>div {
+    width: 100%;
+  }
+  .solutions_container>div:hover:before{
+    width: 70%;
+  }
+
+  .solutions_container>div:nth-child(1),
+  .solutions_container>div:nth-child(6) {
+    height: auto;
   }
 
   .solutions_header {
@@ -1351,10 +1443,8 @@
     width: 320px;
   } */
 
-  .solutions_container div:nth-child(4):hover h3:after,
-  .solutions_container div:nth-child(6):hover h3:after,
-  .solutions_container div:hover h3:before {
-    width: 135%;
+  .internet_wrapper>img {
+    display: none;
   }
 
   .item_block div h3 {
@@ -1381,8 +1471,9 @@
 
   #boostore {
     text-align: center;
+    height: auto;
+    padding: 25px 0;
   }
-
   .boostore_image {
     display: none;
   }
