@@ -2,31 +2,31 @@
   document.addEventListener('DOMContentLoaded', function () {
 
     let toggle = document.getElementById('toggle');
-    if ($(document).scrollTop() + $(window).height() > $('#slogan').offset().top && $(document).scrollTop() - $('#slogan').offset().top < $('#slogan').height()){
-      $('header, .scroller>a').delay(2000).animate({
+    //fadein efect for header and background
+    if ($(document).scrollTop() + $(window).height() > $('#slogan').offset().top && $(document).scrollTop() - $('#slogan').offset().top < $('#slogan').height()) {
+      $('header, .scroller>a').delay(300).animate({
         'opacity': '1'
       }, 1000);
-      $('.slogan_wrap>img').delay(3500).animate({
+      $('.slogan_wrap>img').delay(1500).animate({
         'opacity': '1'
       }, 1500);
     } else {
-      $('header, .scroller>a').css({'opacity': '1'});
-      $('.slogan_wrap>img').css({'opacity': '1'});
+      $('header, .scroller>a').css({
+        'opacity': '1'
+      });
+      $('.slogan_wrap>img').css({
+        'opacity': '1'
+      });
     }
-    //fadein efect for header and background
-    // $('.fixed_header, .scroller>a').delay(1000).fadeIn('slow');
-    $('header, .scroller>a').delay(2000).animate({
-      'opacity': '1'
-    }, 1000);
-    $('.slogan_wrap>img').delay(3500).animate({
-      'opacity': '1'
-    }, 1500);
 
     //sticky header
     $(window).scroll(function () {
       if ($(window).scrollTop() >= 1) {
         $('header').addClass('sticky');
-        $('#slogan').css({'height': '100vh', 'padding-top' : '76px'});
+        $('#slogan').css({
+          'height': '100vh',
+          'padding-top': '76px'
+        });
       } else {
         $('header').addClass('sticky');
       }
@@ -39,7 +39,7 @@
         e.preventDefault();
         $('html, body').animate({
           scrollTop: $($(this).attr('href')).offset().top
-        }, 500, 'linear');
+        }, 1000, 'linear');
       });
     });
 
@@ -47,9 +47,11 @@
     let slogan = document.getElementsByTagName('h1')[0];
     slogan.innerText = slogan.innerText.replace(/ /g, '\u2027');
 
-    let image = document.getElementsByClassName('boostore_image')[0].querySelector('img');
-    let light = image.getAttribute("src");
-    let dark = image.dataset.src;
+    let image, light, dark, mainpageImage;
+    let boostoreImage = document.getElementsByClassName('boostore_image');
+    boostoreImage[0] ? image = boostoreImage[0].querySelector('img') : null;
+
+    image ? (light = image.getAttribute("src"), dark = image.dataset.src) : null;
 
     //Toggle theme
     if (toggle) {
@@ -60,21 +62,26 @@
         let boostoreHeader = document.getElementsByClassName('boostore_content')[0].querySelector('h3');
         let changeTheme = toggle.checked;
 
-        if (!changeTheme) {
+        mainPage ? mainpageImage = mainPage.querySelectorAll('img')[1] : null;
 
-          mainPage ? mainPage.className = "dark_bg" : null;
-          gaming ? gaming.className = "dark_bg" : null;
-
-          boostoreSection.className = "boostore_dark";
-          boostoreHeader.style.color = "white";
-          image.src = dark;
-        } else {
+        if (changeTheme) {
 
           mainPage ? mainPage.className = "light_bg" : null;
           gaming ? gaming.className = "light_bg" : null;
+          mainpageImage.style.opacity = "0";
 
           boostoreSection.className = "boostore_light";
           boostoreHeader.style.color = "#1B1B27";
+          image.src = dark;
+
+        } else {
+
+          mainPage ? mainPage.className = "dark_bg" : null;
+          gaming ? gaming.className = "dark_bg" : null;
+          mainpageImage.style.opacity = "1";
+
+          boostoreSection.className = "boostore_dark";
+          boostoreHeader.style.color = "white";
           image.src = light;
         }
       })
@@ -122,4 +129,20 @@
         p.innerText = p.innerText;
     })
   }
+
+  $(function(){
+    $('#subscribe input').data('holder',$('#subscribe input').attr('placeholder'));
+    $('#subscribe input').focusin(function(){
+        $(this).attr('placeholder','');
+    });
+    $('#subscribe input').focusout(function(){
+        $(this).attr('placeholder',$(this).data('holder'));
+    });
+    $('#subscribe').submit(function(event){ //temporary
+      event.preventDefault();
+      return false;
+  });
+})
+
+
 }())

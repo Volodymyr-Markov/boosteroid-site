@@ -40,9 +40,9 @@ p {
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+	position: fixed;
+	top: 0;
+	width: 100%
 }
 
 /*--- HEADER ---*/
@@ -296,16 +296,17 @@ nav li span {
 	position: relative;
 }
 
-.slogan_wrap>img{
+.slogan_wrap>img {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background:  #171723;
+	background: #171723;
 	opacity: 0;
 }
-.slogan_wrap>div{
+
+.slogan_wrap>div {
 	z-index: 1;
 }
 
@@ -349,7 +350,7 @@ h1 {
 	align-items: center;
 }
 
-.scroller a{
+.scroller a {
 	opacity: 0;
 }
 
@@ -383,7 +384,6 @@ h1 {
 .gaming_description {
 	display: block;
 	text-transform: uppercase;
-	width: 500px;
 	font-family: 'RobotoLight';
 	font-style: normal;
 	font-weight: 300;
@@ -588,7 +588,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 #our_solutions,
 #tranding_games {
-	height: auto;
+	height: 100vh;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -600,6 +600,13 @@ input[type=range]:focus::-ms-fill-upper {
 	align-items: center;
 	margin: 60px 38px;
 }
+
+#tranding_games {
+	background: #11141B;
+	margin: 0 0;
+	padding: 76px 38px 0;
+}
+
 
 .solutions_wrapper,
 .tranding_games_wrapper {
@@ -634,8 +641,13 @@ input[type=range]:focus::-ms-fill-upper {
 	line-height: normal;
 	font-size: 36px;
 	text-transform: uppercase;
+	color: white;
+	/* #1B1B27;*/
+	margin-bottom: 50px;
+}
+
+.solutions_header h2 {
 	color: #1B1B27;
-	margin: 70px 0;
 }
 
 .solutions_header p {
@@ -866,7 +878,7 @@ input[type=range]:focus::-ms-fill-upper {
 	margin-top: 5px;
 }
 
-.solutions_container>div:hover p{
+.solutions_container>div:hover p {
 	display: none;
 }
 
@@ -880,8 +892,14 @@ input[type=range]:focus::-ms-fill-upper {
 	overflow: hidden;
 }
 
+#gaming_pc,
+#play_travel {
+	height: 100vh;
+}
+
 .boostore_wrapper,
-.section_two_wrapper,
+#gaming_pc,
+#play_travel,
 .section_three_wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -910,18 +928,48 @@ input[type=range]:focus::-ms-fill-upper {
 	margin: 0 38px;
 }
 
-.section_two_wrapper {
-	margin-top: 126px;
-}
-
 #boostore,
-#section_two {
+#gaming_pc,
+#play_travel {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
 	-webkit-transition: all 0.5s linear;
 	transition: all 0.5s linear;
+}
+
+#boostore {
+	overflow: hidden;
+}
+
+#gaming_pc {
+	position: relative;
+	justify-content: flex-start;
+}
+
+#play_travel {
+	position: relative;
+	justify-content: flex-end;
+}
+
+#gaming_pc img {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	margin-right: -38px;
+	border-radius: 10px 0 0 10px;
+}
+
+#play_travel img {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	margin-left: -38px;
+	border-radius: 0 10px 10px 0;
 }
 
 .boostore_light {
@@ -936,7 +984,7 @@ input[type=range]:focus::-ms-fill-upper {
 	width: auto;
 }
 
-.left_side,
+.content,
 .right_side {
 	width: 50%;
 }
@@ -1049,19 +1097,24 @@ input[type=range]:focus::-ms-fill-upper {
 	font-size: 30px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	color: #1B1B27;
+}
+
+.boostore_content h3 {
+	color: white;
 }
 
 .internet_wrapper img {
 	align-self: flex-end;
 }
 
-.section_two_content,
+.content div,
 .section_three_content {
 	width: 65%;
 	margin: 0 auto;
 }
 
-.section_two_content h3,
+.content div h3,
 .section_three_content h3 {
 	font-weight: 500;
 	line-height: normal;
@@ -1079,11 +1132,12 @@ input[type=range]:focus::-ms-fill-upper {
 	color: #9B99AD;
 }
 
-.section_two_content p,
+.content div p,
 .section_three_content p {
 	line-height: 23px;
 	font-size: 16px;
 	color: #9B99AD;
+	margin-bottom: 20px;
 }
 
 .boostore_content p {
@@ -1295,7 +1349,6 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .produt_new_level div {
-	width: 45%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -1306,16 +1359,16 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .produt_new_level div p {
-	width: 87%;
+	width: 50%;
 	margin: 0 auto 26px auto;
 }
 
 /*FOOTER*/
 
 footer {
-	height: 340px;
+	height: auto;
 	background: #1B1B27;
-	padding-top: 60px;
+	padding: 60px 38px;
 	visibility: hidden;
 }
 
@@ -1327,7 +1380,7 @@ footer {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: row;
 	flex-direction: row;
-	height: 210px;
+	height: auto;
 }
 
 footer div h4 {
@@ -1367,6 +1420,83 @@ footer ul li a {
 	flex-basis: 25%;
 }
 
+.rights {
+	justify-content: flex-start;
+}
+
+#subscribe {
+	display: flex;
+	width: 80%;
+	border: 1px solid #9B99AD;
+	background: transparent;
+	justify-content: space-between;
+	margin-top: 24px;
+}
+
+#subscribe input {
+	width: 80%;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 400;
+	outline: 0;
+	border: none;
+	padding: 10px;
+}
+
+#subscribe input::placeholder {
+	color: #fff;
+}
+
+#subscribe button {
+	position: relative;
+	width: 50px;
+	min-height: 100%;
+	background: transparent;
+	border: none;
+	outline: 0;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	margin: 0 auto;
+}
+
+#subscribe button:before {
+	content: '';
+	position: absolute;
+	top: calc(50% - 1px);
+	right: 0;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	transform: rotate(45deg) translateX(-50%);
+	/* transform: translateX(-50%); */
+}
+#subscribe button:after {
+	content: '';
+	position: absolute;
+	top: calc(50%);
+	right: 2px;
+	display: inline-block;
+	width: 50px;
+	height: 1px;
+	background: #fff;
+	transform: translateX(0);
+	transition: all 0.3s linear;
+}
+
+#subscribe button:hover {
+	width: 30px;
+}
+#subscribe button:hover:after {
+	width: 30px;
+}
+
+/* #subscribe button:hover {
+	background: transparent url(../img/subscribe-arrow-small.svg) center center no-repeat;
+} */
+
 .about,
 .support,
 .out_solutions {
@@ -1379,7 +1509,7 @@ footer ul li a {
 .rights p {
 	font-size: 12px;
 	color: #9B99AD;
-	margin-bottom: 5px;
+	margin-top: auto;
 }
 
 .legal_terms .social_network ul {
@@ -1443,7 +1573,7 @@ footer ul li a {
 .game img {
 	width: 177px;
 	height: 177px;
-	background: #9B99AD;
+	background: white;
 	border-radius: 10px;
 }
 
@@ -1464,7 +1594,11 @@ footer ul li a {
 	line-height: 17px;
 	font-size: 12px;
 	color: #9B99AD;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
+}
+
+.tranding_games_content {
+	margin-top: 50px;
 }
 
 .tranding_games_content p {
@@ -1472,11 +1606,14 @@ footer ul li a {
 	font-size: 16px;
 	color: #9B99AD;
 	margin-bottom: 20px;
-	margin-top: 115px;
+}
+
+.tranding_games_content p:nth-child(1) {
+	margin-bottom: 0;
 }
 
 /* slider buttons dark theme*/
-/* .slick-prev:before,
+.slick-prev:before,
 .slick-next:before {
 	color: white;
 }
@@ -1492,10 +1629,10 @@ footer ul li a {
 }
 
 /*slider dots darg theme*/
-/* .slick-dots li.slick-active button:before {
+.slick-dots li.slick-active button:before {
 	color: white;
 }
 
 .slick-dots li button:before {
 	color: white;
-}  */
+}

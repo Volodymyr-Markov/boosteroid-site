@@ -1,9 +1,13 @@
 $(document).ready(function () {
   $('.top_games').slick({
-    slidesToShow: 6,
+    slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    dots: true
+    dots: true,
+    draggable: true,
+    focusOnSelect: true,
+    mobileFirst: true,
+    swipeToSlide: true
   });
 });
