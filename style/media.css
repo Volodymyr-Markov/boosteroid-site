@@ -8,7 +8,7 @@
     width: 68%;
   }
 
-  .menu>li:nth-child(4) {
+  nav>ul>li:nth-child(4) {
     flex: 8 1 75px;
     text-align: end;
   }
@@ -61,11 +61,11 @@
     width: 70%;
   }
 
-  .menu>li {
+  nav>ul>li {
     flex: 2 1 75px;
   }
 
-  .menu>li:nth-child(4) {
+  nav>ul>li:nth-child(4) {
     flex: 3 1 75px;
   }
 
@@ -172,11 +172,11 @@
     width: 70%;
   }
 
-  .menu>li {
+  nav>ul>li {
     flex: 2 1 75px;
   }
 
-  .menu>li:nth-child(4) {
+  nav>ul>li:nth-child(4) {
     flex: 1 1 75px;
   }
 
@@ -380,7 +380,7 @@
     width: auto;
   }
 
-  .menu {
+  nav>ul {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -392,7 +392,7 @@
     transition: all 0.5s linear;
   }
 
-  .menu>li {
+  nav>ul>li {
     width: 100%;
     flex: 0 1 auto;
     text-align: center;
@@ -404,29 +404,29 @@
     line-height: normal;
   }
 
-  .menu>li a {
+  nav>ul>li a {
     font-size: 14px;
   }
 
-  nav .menu>li:nth-child(1) {
+  nav nav>ul>li:nth-child(1) {
     position: relative;
   }
 
-  .menu>li:nth-child(4),
-  .menu>li:nth-child(5) {
+  nav>ul>li:nth-child(4),
+  nav>ul>li:nth-child(5) {
     flex: 0 1 auto;
     text-align: start;
     color: inherit;
     text-transform: none;
   }
 
-  .menu>li:nth-child(4) a {
+  nav>ul>li:nth-child(4) a {
     font-size: 14px;
     color: #2293DA;
     text-transform: uppercase;
   }
 
-  .menu>li:nth-child(5) a {
+  nav>ul>li:nth-child(5) a {
     background: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -436,7 +436,7 @@
     border-radius: 0;
   }
 
-  .menu li a {
+  nav>ul li a {
     text-decoration: none;
     color: #1B1B27;
     margin: 0 auto;
@@ -444,7 +444,7 @@
     font-size: 12px;
   }
 
-  .menu li {
+  nav>ul li {
     text-decoration: none;
     color: #1B1B27;
     margin: 0;
@@ -475,7 +475,7 @@
     margin-right: 0;
   }
 
-  .menu>li:hover .submenu {
+  nav>ul>li:hover .submenu {
     display: flex;
     width: 100%;
     height: auto;
@@ -700,7 +700,7 @@
     width: auto;
   }
 
-  .menu {
+  nav>ul {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -712,7 +712,7 @@
     transition: all 0.5s linear;
   }
 
-  .menu>li {
+  nav>ul>li {
     width: 100%;
     flex: 0 1 auto;
     text-align: center;
@@ -724,29 +724,29 @@
     line-height: normal;
   }
 
-  .menu>li a {
+  nav>ul>li a {
     font-size: 14px;
   }
 
-  nav .menu>li:nth-child(1) {
+  nav nav>ul>li:nth-child(1) {
     position: relative;
   }
 
-  .menu>li:nth-child(4),
-  .menu>li:nth-child(5) {
+  nav>ul>li:nth-child(4),
+  nav>ul>li:nth-child(5) {
     flex: 0 1 auto;
     text-align: start;
     color: inherit;
     text-transform: none;
   }
 
-  .menu>li:nth-child(4) a {
+  nav>ul>li:nth-child(4) a {
     font-size: 14px;
     color: #2293DA;
     text-transform: uppercase;
   }
 
-  .menu>li:nth-child(5) a {
+  nav>ul>li:nth-child(5) a {
     background: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -755,7 +755,7 @@
     border-radius: 0;
   }
 
-  .menu li a {
+  nav>ul li a {
     text-decoration: none;
     color: #1B1B27;
     margin: 0 auto;
@@ -763,7 +763,7 @@
     font-size: 12px;
   }
 
-  .menu li {
+  nav>ul li {
     text-decoration: none;
     color: #1B1B27;
     margin: 0;
@@ -794,7 +794,7 @@
     margin-right: 0;
   }
 
-  .menu>li:hover .submenu {
+  nav>ul>li:hover .submenu {
     display: flex;
     width: 100%;
     height: auto;
@@ -1212,7 +1212,7 @@
     width: auto;
   }
 
-  .menu {
+  nav>ul {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -1224,7 +1224,7 @@
     transition: all 0.5s linear;
   }
 
-  .menu>li {
+  nav>ul>li {
     width: 100%;
     flex: 0 1 auto;
     text-align: center;
@@ -1236,29 +1236,29 @@
     line-height: normal;
   }
 
-  .menu>li a {
+  nav>ul>li a {
     font-size: 14px;
   }
 
-  nav .menu>li:nth-child(1) {
+  nav nav>ul>li:nth-child(1) {
     position: relative;
   }
 
-  .menu>li:nth-child(4),
-  .menu>li:nth-child(5) {
+  nav>ul>li:nth-child(4),
+  nav>ul>li:nth-child(5) {
     flex: 0 1 auto;
     text-align: start;
     color: inherit;
     text-transform: none;
   }
 
-  .menu>li:nth-child(4) a {
+  nav>ul>li:nth-child(4) a {
     font-size: 14px;
     color: #2293DA;
     text-transform: uppercase;
   }
 
-  .menu>li:nth-child(5) a {
+  nav>ul>li:nth-child(5) a {
     background: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -1268,7 +1268,7 @@
     border-radius: 0;
   }
 
-  .menu li a {
+  nav>ul li a {
     text-decoration: none;
     color: #1B1B27;
     margin: 0 auto;
@@ -1276,7 +1276,7 @@
     font-size: 12px;
   }
 
-  .menu li {
+  nav>ul li {
     text-decoration: none;
     color: #1B1B27;
     margin: 0;
@@ -1307,7 +1307,7 @@
     margin-right: 0;
   }
 
-  .menu>li:hover .submenu {
+  nav>ul>li:hover .submenu {
     display: flex;
     width: 100%;
     height: auto;

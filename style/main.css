@@ -79,31 +79,11 @@ header {
 }
 
 /*menu*/
+.logo_boosteroid {
+	width: 25%;
+}
 nav {
-	width: 65%;
-}
-
-.menu {
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	margin: 0;
-	text-transform: uppercase;
-	font-size: 14px;
-	z-index: 999;
-}
-
-.menu>li {
-	list-style-type: none;
-	color: #1B1B27;
-	-webkit-box-flex: 3;
-	-ms-flex: 3 1 75px;
-	flex: 3 1 75px;
-	text-align: center;
+	width: 75%;
 }
 
 nav li span,
@@ -125,24 +105,94 @@ nav li span {
 	background: url('../img/pointer-up.png') no-repeat 98% 50%;
 }
 
-.menu>li:nth-child(4) {
-	-webkit-box-flex: 20;
-	-ms-flex: 20 1 75px;
-	flex: 20 1 75px;
-	text-align: end;
+nav>ul {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	z-index: 999;
 }
 
-.menu>li:nth-child(4) a {
+nav>ul>li:nth-child(1) {
+	list-style-type: none;
+	color: #1B1B27;
+	text-align: center;
+}
+
+nav>ul>li:nth-child(1){
+	width: 66.666%;
+}
+
+nav>ul>li:nth-child(2){
+	width: 33.333%;
+}
+
+nav>ul li {
+	list-style-type: none;
+}
+
+nav>ul>li ul {
+	display: flex;
+}
+
+nav>ul>li:nth-child(1)>ul {
+	display: flex;
+	justify-content: center;
+}
+
+nav>ul>li:nth-child(2)>ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav>ul>li>ul>li {
+	margin-right: 28px;
+}
+
+nav>ul>li>ul>li:last-child {
+	margin-right: 0;
+}
+
+/*'download app' button*/
+
+nav>ul>li:nth-child(1)>ul>li:nth-child(4) a {
+	position: relative;
+	background: -webkit-linear-gradient(45deg, #2096D9 0%, #5C35EE 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+nav>ul>li:nth-child(1)>ul>li:nth-child(4) a:before {
+	position: absolute;
+	content: '';
+	top:50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 17px;
+	background: url(../img/download-app.svg) center 2px no-repeat;
+}
+
+/*------*/
+
+
+/*----'sign in' & go 'gloud buttons'------*/
+nav>ul>li:nth-child(2)>ul li:nth-child(1) a {
 	font-size: 14px;
 	color: #2293DA;
 	text-transform: capitalize;
 }
 
-.menu>li:nth-child(5) {
-	text-align: end;
-}
-
-.menu>li:nth-child(5) a {
+nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
 	background: -webkit-gradient(linear, left top, right top, from(#2293DA), to(#5C35EE));
 	background: linear-gradient(90deg, #2293DA 0%, #5C35EE 100%);
 	text-transform: uppercase;
@@ -152,6 +202,7 @@ nav li span {
 	padding: 10px 14px;
 	border-radius: 10px;
 }
+/*-----*/
 
 .submenu {
 	top: 76px;
@@ -319,12 +370,75 @@ h1 {
 	text-transform: uppercase;
 }
 
-.slogan_block p {
-	font-family: "ClearSansLight";
-	font-size: 72px;
-	text-transform: uppercase;
-	margin: 10px;
+#slogan>div>div>div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 32px;
 }
+
+#slogan>div>div>div a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+ /* 'get started button' button*/
+#slogan>div>div>div a:nth-child(1) {
+	background: -webkit-gradient(linear, left top, right top, from(#2293DA), to(#5C35EE));
+  background: linear-gradient(90deg, #2293DA 0%, #5C35EE 100%);
+  text-align: center;
+  padding: 10px 31px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+/*---------*/
+
+/*'download app' button */
+#slogan>div>div>div a:nth-child(2) {
+	position: relative;
+	border: 2px solid transparent;
+  background: #171723;
+  background-clip: padding-box;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px 11px 10px 36px;
+}
+
+#slogan>div>div>div a:nth-child(2):after {
+	content: '';
+	position: absolute;
+	top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+	background: linear-gradient(90deg, #2293DA 0%, #5C35EE 100%);
+	z-index: -1;
+  border-radius: 10px;
+}
+
+#slogan>div>div>div a:nth-child(2):before {
+	content: '';
+	width: 10px;
+	height: 17px;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	background: url(../img/download-app-white.svg) center 2px no-repeat;
+}
+/*-----------*/
+
+
+/* position: absolute;
+	content: '';
+	top:50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 17px;
+	background: url(../img/download-app.svg) center 2px no-repeat; */
+
 
 .slogan_wrap div,
 .gaming_wrap div,
@@ -695,16 +809,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .solutions_container>div:hover {
-	justify-content: space-between;
-}
-
-.icons {
-	display: none;
-	opacity: 0;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
-	transition: all 0.3s linear;
+	justify-content: flex-start;
 }
 
 .solutions_container>div a {
@@ -718,15 +823,6 @@ input[type=range]:focus::-ms-fill-upper {
 	-webkit-text-fill-color: transparent;
 	transition: all 0.3s linear;
 }
-
-/* .solutions_container>div a:after {
-	content: '';
-	bottom: 2px;
-	left: 0;
-	border-bottom: 1px solid;
-	position: absolute;
-	width: 100%;
-} */
 
 .solutions_container>div:after {
 	border-radius: 10px;
@@ -742,16 +838,6 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .solutions_container>div h3 {
-	width: 60%;
-	font-weight: 500;
-	font-size: 24px;
-	color: #1B1B27;
-	text-transform: capitalize;
-	position: relative;
-}
-
-.solutions_container>div:hover h3 {
-	display: none;
 	width: 60%;
 	font-weight: 500;
 	font-size: 24px;
@@ -829,24 +915,6 @@ input[type=range]:focus::-ms-fill-upper {
 	background: linear-gradient(90deg, #2096D9 0%, #5C35EE 100%);
 }
 
-.icons {
-	margin-top: 15px;
-	width: 100%;
-}
-
-.icons img {
-	margin-right: 5px;
-}
-
-.icons div {
-	display: inline-block;
-	margin-right: 5px;
-	width: 55px;
-	height: 55px;
-	background: #5C35EE;
-	border-radius: 5px;
-}
-
 .solutions_container>div:hover .icons {
 	display: block;
 	opacity: 1;
@@ -857,29 +925,12 @@ input[type=range]:focus::-ms-fill-upper {
 	opacity: 1;
 }
 
-/* .solutions_container>div span {
-	display: none;
-	background: -webkit-linear-gradient(45deg, #2096D9 0%, #5C35EE 100%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-transform: capitalize;
-}
-
-.solutions_container>div:hover>span {
-	display: inline;
-} */
-
 .solutions_container>div p {
 	width: 70%;
 	line-height: 17px;
 	font-size: 12px;
 	color: #9B99AD;
 	margin-top: 5px;
-}
-
-.solutions_container>div:hover p {
-	display: none;
 }
 
 /*SECTION INTERNET*/

@@ -16,36 +16,46 @@
 <body>
 
   <header class='fixed_header'>
-    <div class='main_header'>
-      <a class='logo_boosteroid' href="index.html">
-        <img src="img/logo.svg" alt="boosteroid">
-      </a>
-      <nav>
-        <div class="mobile_burger_menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul class='menu'>
-          <li><span class='submenu_header pointer_down'>our solutions</span>
-            <ul class='submenu'>
-              <li><a href="#">games</a></li>
-              <li><a href="#graphics">graphics</a></li>
-              <li><a href="#media">audio</a></li>
-              <li><a href="#media">video</a></li>
-              <li><a href="#development">development</a></li>
-              <li><a href="#vr_ar">vr/ar</a></li>
-              <li><a href="#streaming">streaming</a></li>
-            </ul>
-          </li>
-          <li><a href="#boostore">boostore</a></li>
-          <li><a href="#partnership">partnership</a></li>
-          <li><a href="#" class="sing_in">sing in</a></li>
-          <li><a href="#" class="explore">explore</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+		<div class='main_header'>
+			<a class='logo_boosteroid' href="#slogan">
+				<img src="img/logo.svg" alt="boosteroid">
+			</a>
+			<nav>
+				<div class="mobile_burger_menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul>
+					<li>
+						<ul>
+							<li>
+									<span class='submenu_header pointer_down'>our solutions</span>
+									<ul class='submenu'>
+										<li><a href="games.html">games</a></li>
+										<li><a href="#graphics">graphics</a></li>
+										<li><a href="#media">audio</a></li>
+										<li><a href="#media">video</a></li>
+										<li><a href="#development">development</a></li>
+										<li><a href="#vr_ar">vr/ar</a></li>
+										<li><a href="#streaming">streaming</a></li>
+									</ul>
+							</li>
+							<li><a href="#boostore">boostore</a></li>
+							<li><a href="#partnership">partnership</a></li>
+							<li><a href="#" download>download app</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+								<li><a href="#" class="sing_in">sing in</a></li>
+								<li><a href="#" class="explore">go gloud</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
   <div>
     <section id='slogan' class='light_bg'>
       <div class="slogan_wrap">
@@ -183,7 +193,10 @@
           <a href="#slogan">
             <img src="img/logo.svg" alt="Boosteroid">
           </a>
-          <a href="#">Subscribe to our newsletter</a>
+          <form id="subscribe" action="#" method="post">
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button type="submit"></button>
+          </form>
           <p>Boosteroid 2018. All right reserved</p>
         </div>
         <div class="out_solutions">

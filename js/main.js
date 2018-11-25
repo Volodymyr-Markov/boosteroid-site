@@ -66,19 +66,11 @@
 
         if (changeTheme) {
 
-          mainPage ? mainPage.className = "light_bg" : null;
-          gaming ? gaming.className = "light_bg" : null;
-          mainpageImage.style.opacity = "0";
-
           boostoreSection.className = "boostore_light";
           boostoreHeader.style.color = "#1B1B27";
           image.src = dark;
 
         } else {
-
-          mainPage ? mainPage.className = "dark_bg" : null;
-          gaming ? gaming.className = "dark_bg" : null;
-          mainpageImage.style.opacity = "1";
 
           boostoreSection.className = "boostore_dark";
           boostoreHeader.style.color = "white";
@@ -99,7 +91,7 @@
     $(document).ready(function ($) {
       $('.mobile_burger_menu').click(function () {
         $(this).toggleClass('open');
-        $('.menu').toggle();
+        $('nav>ul').toggle();
       });
 
       $(window).resize(function () {
@@ -110,10 +102,10 @@
       function toggleMenu() {
         let width = document.body.clientWidth;
         if (width < 768) {
-          $('.menu').css('display', 'none');
+          $('nav>ul').css('display', 'none');
           $('.submenu').css('display', 'none');
         } else if (width >= 768) {
-          $('.menu').css('display', 'flex');
+          $('nav>ul').css('display', 'flex');
         };
       };
     });
