@@ -348,6 +348,7 @@ nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
 	top: 0;
 	left: 0;
 	width: 100%;
+	height: 100%;
 	background: #171723;
 	opacity: 0;
 }

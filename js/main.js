@@ -58,12 +58,8 @@
     if (toggle) {
       toggle.addEventListener('click', function () {
         let boostoreSection = document.getElementById('boostore');
-        let mainPage = document.getElementById('slogan');
-        let gaming = document.getElementById('gaming') || null;
         let boostoreHeader = document.getElementsByClassName('boostore_content')[0].querySelector('h3');
         let changeTheme = toggle.checked;
-
-        mainPage ? mainpageImage = mainPage.querySelectorAll('img')[1] : null;
 
         if (changeTheme) {
 
