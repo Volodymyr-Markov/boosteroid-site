@@ -39,12 +39,12 @@
     font-size: 14px;
   }
 
-  .game_container {
+  .product_container {
     width: 160px;
     height: 215px;
   }
 
-  .game_container .game_img {
+  .product_container .product_img {
     width: 146px;
     height: 155px;
   }
@@ -156,7 +156,7 @@
     height: 650px;
   }
 
-  .game_container {
+  .product_container {
     margin-top: 10px;
   }
 
@@ -342,7 +342,7 @@
     height: 650px;
   }
 
-  .game_container {
+  .product_container {
     margin-top: 10px;
   }
 
@@ -656,7 +656,7 @@
     height: 650px;
   }
 
-  .game_container {
+  .product_container {
     margin-top: 10px;
   }
 
@@ -1139,7 +1139,7 @@
     height: 650px;
   }
 
-  .game_container {
+  .product_container {
     margin-top: 10px;
   }
 
@@ -1598,7 +1598,7 @@
     height: 650px;
   }
 
-  .game_container {
+  .product_container {
     margin-top: 10px;
   }
 

@@ -46,6 +46,7 @@
     //Set bullest between words in main header(h1)
     let slogan = document.getElementsByTagName('h1')[0];
     slogan.innerText = slogan.innerText.replace(/ /g, '\u2027');
+    // sloganText = document.getElementsByClassName("slogan_wrap")[0].querySelector("p").style.textTransform = "lowercase";
 
     let image, light, dark, mainpageImage;
     let boostoreImage = document.getElementsByClassName('boostore_image');

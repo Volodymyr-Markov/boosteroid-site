@@ -26,19 +26,6 @@ p {
 	font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
 }
 
-.clearfix:after {
-	display: block;
-	content: "";
-	clear: both;
-	height: 76px;
-}
-
-.wrap {
-	width: 100%;
-	max-width: 1280px;
-	margin: 0 auto;
-}
-
 .sticky {
 	position: fixed;
 	top: 0;
@@ -361,7 +348,6 @@ nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
 	background: #171723;
 	opacity: 0;
 }
@@ -438,17 +424,6 @@ h1 {
 }
 /*-----------*/
 
-
-/* position: absolute;
-	content: '';
-	top:50%;
-	left: 0;
-	transform: translateY(-50%);
-	width: 10px;
-	height: 17px;
-	background: url(../img/download-app.svg) center 2px no-repeat; */
-
-
 .slogan_wrap div,
 .gaming_wrap div,
 .scroller {
@@ -506,7 +481,6 @@ h1 {
 .slogan_wrap div p,
 .gaming_description {
 	display: block;
-	text-transform: uppercase;
 	font-family: 'RobotoLight';
 	font-style: normal;
 	font-weight: 300;
@@ -515,6 +489,10 @@ h1 {
 	text-align: center;
 	color: #9B99AD;
 	margin: 0 auto;
+}
+
+.to_uppercase {
+	text-transform: uppercase;
 }
 
 
@@ -1389,6 +1367,7 @@ input[type=range]:focus::-ms-fill-upper {
 	border-radius: 10px;
 	text-decoration: none;
 	width: 163px;
+	margin-top: 20px;
 }
 
 /*SECTION PUSH YOUR PRODUCT TO NEW LEVEL*/
@@ -1608,7 +1587,7 @@ footer ul li a {
 
 /**/
 
-.game {
+.product {
 	display: -webkit-box !important;
 	display: -ms-flexbox !important;
 	display: flex !important;
@@ -1630,27 +1609,27 @@ footer ul li a {
 	border-radius: 10px;
 }
 
-.game img {
+.product img {
 	width: 177px;
 	height: 177px;
 	background: white;
 	border-radius: 10px;
 }
 
-.game h4,
-.game p {
+.product h4,
+.product p {
 	width: 177px;
 }
 
-.game h4 {
+.product h4 {
 	font-weight: 500;
 	line-height: normal;
-	font-size: 14px;
+	font-size: 12px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
 
-.game p {
+.product p {
 	line-height: 17px;
 	font-size: 12px;
 	color: #9B99AD;
@@ -1669,6 +1648,10 @@ footer ul li a {
 }
 
 .tranding_products_content p:nth-child(1) {
+	margin-bottom: 0;
+}
+
+.tranding_products_content p:nth-child(3) {
 	margin-bottom: 0;
 }
 
