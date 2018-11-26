@@ -185,7 +185,7 @@ nav>ul>li:nth-child(1)>ul>li:nth-child(4) a:before {
 /*------*/
 
 
-/*----'sign in' & go 'gloud buttons'------*/
+/*----'sign in' & go 'cloud buttons'------*/
 nav>ul>li:nth-child(2)>ul li:nth-child(1) a {
 	font-size: 14px;
 	color: #2293DA;
@@ -203,6 +203,15 @@ nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
 	border-radius: 10px;
 }
 /*-----*/
+
+/*gradient link*/
+.gradient_link{
+	background: -webkit-linear-gradient(45deg, #2096D9 0%, #5C35EE 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/**/
 
 .submenu {
 	top: 76px;
@@ -701,7 +710,7 @@ input[type=range]:focus::-ms-fill-upper {
 /*SECTION OUR_SOLUTIONS*/
 
 #our_solutions,
-#tranding_games {
+#tranding_products {
 	height: 100vh;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -715,7 +724,7 @@ input[type=range]:focus::-ms-fill-upper {
 	margin: 60px 38px;
 }
 
-#tranding_games {
+#tranding_products {
 	background: #11141B;
 	margin: 0 0;
 	padding: 76px 38px 0;
@@ -723,7 +732,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 .solutions_wrapper,
-.tranding_games_wrapper {
+.tranding_products_wrapper {
 	max-width: 100vw;
 	width: 100%;
 	height: auto;
@@ -750,7 +759,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .solutions_header h2,
-.tranding_games_wrapper h2 {
+.tranding_products_wrapper h2 {
 	font-weight: 500;
 	line-height: normal;
 	font-size: 36px;
@@ -943,14 +952,14 @@ input[type=range]:focus::-ms-fill-upper {
 	overflow: hidden;
 }
 
-#gaming_pc,
-#play_travel {
+#left_side_img,
+#right_side_img {
 	height: 100vh;
 }
 
 .boostore_wrapper,
-#gaming_pc,
-#play_travel,
+#left_side_img,
+#right_side_img,
 .section_three_wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -980,8 +989,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #boostore,
-#gaming_pc,
-#play_travel {
+#left_side_img,
+#right_side_img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -993,17 +1002,17 @@ input[type=range]:focus::-ms-fill-upper {
 	overflow: hidden;
 }
 
-#gaming_pc {
+#left_side_img {
 	position: relative;
 	justify-content: flex-start;
 }
 
-#play_travel {
+#right_side_img {
 	position: relative;
 	justify-content: flex-end;
 }
 
-#gaming_pc img {
+#left_side_img img {
 	width: 50%;
 	position: absolute;
 	top: 50%;
@@ -1013,7 +1022,7 @@ input[type=range]:focus::-ms-fill-upper {
 	border-radius: 10px 0 0 10px;
 }
 
-#play_travel img {
+#right_side_img img {
 	width: 50%;
 	position: absolute;
 	top: 50%;
@@ -1141,7 +1150,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .boostore_content h3,
 .internet_content h3,
-.produt_new_level div h3 {
+.opportunities div h3 {
 	width: 90%;
 	font-weight: 500;
 	line-height: normal;
@@ -1176,7 +1185,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .boostore_content p,
 .internet_content p,
-.produt_new_level div p {
+.opportunities div p {
 	width: 88%;
 	line-height: 23px;
 	font-size: 16px;
@@ -1367,8 +1376,8 @@ input[type=range]:focus::-ms-fill-upper {
 /*SWITH*/
 
 .visit_boostore_block a,
-.produt_new_level div a,
-.tranding_games_content a {
+.opportunities div a,
+.tranding_products_content a {
 	display: inline-block;
 	background: -webkit-gradient(linear, left top, right top, from(#2293DA), to(#5C35EE));
 	background: linear-gradient(90deg, #2293DA 0%, #5C35EE 100%);
@@ -1386,7 +1395,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 
-#produt_new_level {
+#opportunities {
 	height: 60vh;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1399,17 +1408,17 @@ input[type=range]:focus::-ms-fill-upper {
 	align-items: center;
 }
 
-.produt_new_level div {
+.opportunities div {
 	margin: 0 auto;
 	text-align: center;
 }
 
-.produt_new_level div h3,
-.produt_new_level div p {
+.opportunities div h3,
+.opportunities div p {
 	width: 100%;
 }
 
-.produt_new_level div p {
+.opportunities div p {
 	width: 50%;
 	margin: 0 auto 26px auto;
 }
@@ -1648,18 +1657,18 @@ footer ul li a {
 	/* text-transform: capitalize; */
 }
 
-.tranding_games_content {
+.tranding_products_content {
 	margin-top: 50px;
 }
 
-.tranding_games_content p {
+.tranding_products_content p {
 	line-height: 23px;
 	font-size: 16px;
 	color: #9B99AD;
 	margin-bottom: 20px;
 }
 
-.tranding_games_content p:nth-child(1) {
+.tranding_products_content p:nth-child(1) {
 	margin-bottom: 0;
 }
 

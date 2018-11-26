@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('.top_games').slick({
+  $('.top_products').slick({
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
