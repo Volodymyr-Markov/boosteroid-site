@@ -55,26 +55,46 @@
     image ? (light = image.getAttribute("src"), dark = image.dataset.src) : null;
 
     //Toggle theme
-    if (toggle) {
-      toggle.addEventListener('click', function () {
-        let boostoreSection = document.getElementById('boostore');
-        let boostoreHeader = document.getElementsByClassName('boostore_content')[0].querySelector('h3');
-        let changeTheme = toggle.checked;
+    // if (toggle) {
+    //   toggle.addEventListener('click', function () {
+    //     let boostoreSection = document.getElementById('boostore');
+    //     let boostoreHeader = document.getElementsByClassName('boostore_content')[0].querySelector('h3');
+    //     let changeTheme = toggle.checked;
 
-        if (changeTheme) {
+    //     if (changeTheme) {
 
-          boostoreSection.className = "boostore_light";
-          boostoreHeader.style.color = "#1B1B27";
-          image.src = dark;
+    //       boostoreSection.className = "boostore_light";
+    //       boostoreHeader.style.color = "#1B1B27";
+    //       image.src = dark;
 
+    //     } else {
+
+    //       boostoreSection.className = "boostore_dark";
+    //       boostoreHeader.style.color = "white";
+    //       image.src = light;
+    //     }
+    //   })
+    // };
+
+    $(function () {
+      let dark = $('#boostore img').attr('src');
+      let light = $('#boostore img').attr('data-src');
+      $('#toggle').click(function(){
+        if($(this).prop("checked")){
+          $('#boostore').removeClass('boostore_dark').addClass('boostore_light');
+          $('.boostore_content h3').css('color', '#1B1B27');
+          $('#boostore img').fadeOut('slow', function () {
+            $(this).attr('src', light ).delay(100).fadeIn();
+          })
         } else {
-
-          boostoreSection.className = "boostore_dark";
-          boostoreHeader.style.color = "white";
-          image.src = light;
+          $('#boostore').removeClass('boostore_light').addClass('boostore_dark');
+          $('.boostore_content h3').css('color', 'white');
+          $('#boostore img').fadeOut('slow', function () {
+            $(this).attr('src', dark ).delay(100).fadeIn();
+          });
         }
       })
-    };
+    });
 
     //Hide menu when user click on .submenu_header
 
