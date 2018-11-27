@@ -48,9 +48,9 @@
     slogan.innerText = slogan.innerText.replace(/ /g, '\u2027');
     // sloganText = document.getElementsByClassName("slogan_wrap")[0].querySelector("p").style.textTransform = "lowercase";
 
-    let image, light, dark, mainpageImage;
-    let boostoreImage = document.getElementsByClassName('boostore_image');
-    boostoreImage[0] ? image = boostoreImage[0].querySelector('img') : null;
+    let image, light, dark;
+    let boostoreImage = document.getElementById('boostore');
+    boostoreImage ? image = boostoreImage.querySelector('img') : null;
 
     image ? (light = image.getAttribute("src"), dark = image.dataset.src) : null;
 
@@ -80,7 +80,7 @@
 
     //Hide menu when appear OUR SOLUTION section
     $('.submenu_header').click(function () {
-      $('.submenu').slideToggle("fast");
+      $('.submenu').slideToggle(400);
       $('.submenu_header').toggleClass('pointer_up');
     });
 
@@ -114,7 +114,7 @@
     let textArray = textContainer.querySelectorAll("p");
     textArray.forEach((p) => {
       p.innerText.length > 70 ?
-        p.innerText = p.innerText.slice(0, 50) + " ..." :
+        p.innerText = p.innerText.slice(0, 100) + " ..." :
         p.innerText = p.innerText;
     })
   }

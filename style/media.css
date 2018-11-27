@@ -22,7 +22,7 @@
   .boostore_content p,
   .internet_content p,
   .opportunities div p {
-    width: 100%;
+    width: 80%;
     font-size: 14px;
   }
 
@@ -39,22 +39,6 @@
 }
 
 @media only screen and (min-width:960px) and (max-width:1099px) {
-  /* .wrap {
-    width: 100%;
-    max-width: 880px;
-  } */
-
-  /* nav {
-    width: 70%;
-  }
-
-  nav>ul>li {
-    flex: 2 1 75px;
-  }
-
-  nav>ul>li:nth-child(4) {
-    flex: 3 1 75px;
-  } */
 
   nav>ul {
     font-size: 12px;
@@ -98,7 +82,7 @@
   }
 
   #boostore {
-    height: auto;
+    height: 100vh;
   }
 
   .boostore_wrapper {
@@ -132,8 +116,9 @@
   }
 
   footer {
-    height: 320px;
+    height: auto;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   footer div h4 {
@@ -142,6 +127,18 @@
 
   .rights p {
     font-size: 10px;
+  }
+
+  #subscribe input {
+    width: 75%;
+  }
+
+  #subscribe button:after {
+    width: 40px;
+  }
+
+  #subscribe button {
+    width: 35px;
   }
 
   footer ul li a {
@@ -260,7 +257,12 @@
   }
 
   #boostore {
-    height: auto;
+    padding-top: 76px;
+    height: 100vh;
+  }
+
+  #boostore img {
+    top: calc(50% + 38px);
   }
 
   /**/
@@ -365,6 +367,50 @@
     flex-direction: column-reverse;
   }
 
+  #subscribe input {
+    width: 75%;
+  }
+
+  #subscribe button {
+    width: 35px;
+  }
+
+  #subscribe button:after {
+    width: 35px;
+  }
+
+  .legal_terms {
+    padding-left: 5px;
+  }
+
+  /*Section 'left_side_img' $ 'right_side_img'*/
+  .content div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .content div h3,
+  .section_three_content h3 {
+    font-size: 22px;
+  }
+
+  .content div p {
+    font-size: 12px;
+  }
+
+  /*Section 'tranding_products'*/
+  .tranding_products_wrapper h2 {
+    font-size: 22px;
+  }
+
+  .tranding_products_content {
+    margin-top: 30px;
+  }
+
+  .tranding_products_content p {
+    font-size: 13px;
+  }
+
 }
 
 @media only screen and (min-width:640px) and (max-width:767px) {
@@ -392,11 +438,13 @@
     left: 50%;
     transform: translateX(-50%);
     transition: all 0.5s linear;
+    padding: 15px 5px;
   }
 
-  nav>ul>li {
+  nav>ul>li>ul {
     width: 100%;
-    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -404,6 +452,21 @@
     list-style-position: inside;
     text-align: start;
     line-height: normal;
+    padding-left: 20px;
+  }
+
+  nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0;
+    background: -webkit-linear-gradient(45deg, #2096D9 0%, #5C35EE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
   }
 
   nav>ul>li a {
@@ -433,7 +496,6 @@
     text-transform: uppercase;
     font-size: 14px;
     color: #2293DA;
-    ;
     padding: 0;
     border-radius: 0;
   }
@@ -583,18 +645,28 @@
   }
 
   #boostore {
-    height: auto;
-    padding: 50px 0;
+    padding-top: 76px;
+    height: 100vh;
   }
 
-  .boostore_content {
-    margin-left: 25px;
+  #boostore img {
+    top: calc(50% + 38px);
   }
 
   .boostore_content h3,
   .internet_content h3,
   .opportunities div h3 {
     font-size: 22px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .theme {
+    margin-top: 15px;
+  }
+
+  .visit_boostore_block a {
+    margin-top: 15px;
   }
 
   .internet_content {
@@ -681,6 +753,38 @@
   .section_three_wrapper {
     flex-direction: column-reverse;
   }
+
+  .legal_terms {
+    padding-left: 5px;
+  }
+
+  /*Section 'left_side_img' $ 'right_side_img'*/
+  .content div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .content div h3,
+  .section_three_content h3 {
+    font-size: 22px;
+  }
+
+  .content div p {
+    font-size: 12px;
+  }
+
+  /*Section 'tranding_products'*/
+  .tranding_products_wrapper h2 {
+    font-size: 22px;
+  }
+
+  .tranding_products_content {
+    margin-top: 30px;
+  }
+
+  .tranding_products_content p {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (min-width:480px) and (max-width:639px) {
@@ -709,11 +813,13 @@
     left: 50%;
     transform: translateX(-50%);
     transition: all 0.5s linear;
+    padding: 15px 5px;
   }
 
-  nav>ul>li {
+  nav>ul>li>ul {
     width: 100%;
-    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -721,6 +827,21 @@
     list-style-position: inside;
     text-align: start;
     line-height: normal;
+    padding-left: 20px;
+  }
+
+  nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0;
+    background: -webkit-linear-gradient(45deg, #2096D9 0%, #5C35EE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
   }
 
   nav>ul>li a {
@@ -1012,8 +1133,20 @@
   }
 
   #boostore {
+    /*-------------*/
+    padding-top: 76px;
     text-align: center;
-    height: auto;
+    height: 100vh;
+  }
+
+  .boostore_content {
+    padding-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #boostore img {
+    display: none;
   }
 
   .boostore_wrapper {
@@ -1038,10 +1171,6 @@
     height: 450px;
   }
 
-  .boostore_content {
-    margin-left: 0;
-  }
-
   .boostore_content h3,
   .internet_content h3,
   .opportunities div h3 {
@@ -1059,7 +1188,7 @@
   .internet_content p,
   .opportunities div p {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .boostore_image {
@@ -1086,8 +1215,16 @@
     width: 90%;
   }
 
+  .rights {
+    flex: 0 0 100%;
+  }
+
   .rights p {
     font-size: 10px;
+  }
+
+  #subscribe {
+    margin: 24px auto;
   }
 
   footer .footer_content ul li {
@@ -1106,10 +1243,6 @@
 
   .social_network {
     margin: 10px 0;
-  }
-
-  .rights {
-    flex: 0 0 480px;
   }
 
   .legal_terms,
@@ -1192,6 +1325,51 @@
     margin-top: 30px;
   }
 
+  /*Section 'left_side_img' $ 'right_side_img'*/
+  .content {
+    width: 100%;
+    z-index: 2;
+  }
+
+  .content div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #left_side_img,
+  #right_side_img {
+    height: auto;
+    padding-top: 76px;
+    padding-bottom: 50px;
+  }
+
+  #left_side_img img,
+  #right_side_img img {
+    display: none;
+  }
+
+  .content div h3,
+  .section_three_content h3 {
+    font-size: 22px;
+  }
+
+  .content div p {
+    font-size: 12px;
+  }
+
+  /*Section 'tranding_products'*/
+  .tranding_products_wrapper h2 {
+    font-size: 22px;
+  }
+
+  .tranding_products_content {
+    margin-top: 30px;
+  }
+
+  .tranding_products_content p {
+    font-size: 13px;
+  }
+
 }
 
 @media only screen and (min-width:320px) and (max-width:479px) {
@@ -1221,11 +1399,13 @@
     left: 50%;
     transform: translateX(-50%);
     transition: all 0.5s linear;
+    padding: 15px 5px;
   }
 
-  nav>ul>li {
+  nav>ul>li>ul {
     width: 100%;
-    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -1233,6 +1413,21 @@
     list-style-position: inside;
     text-align: start;
     line-height: normal;
+    padding-left: 20px;
+  }
+
+  nav>ul>li:nth-child(2)>ul li:nth-child(2) a {
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0;
+    background: -webkit-linear-gradient(45deg, #2096D9 0%, #5C35EE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
   }
 
   nav>ul>li a {
@@ -1331,6 +1526,7 @@
   }
 
   /* end menu */
+
   h1 {
     font-size: 30px;
   }
@@ -1342,6 +1538,7 @@
     font-size: 15px;
   }
 
+  /*video*/
   #video {
     height: 100%;
     position: relative;
@@ -1355,6 +1552,8 @@
     height: 240px;
     border-radius: 10px;
   }
+
+  /*end video*/
 
   .main_navigation {
     margin: 0 auto;
@@ -1470,12 +1669,11 @@
   }
 
   #boostore {
-    text-align: center;
-    height: auto;
-    padding: 25px 0;
+    padding-top: 76px;
+    height: 100vh;
   }
 
-  .boostore_image {
+  #boostore img {
     display: none;
   }
 
@@ -1499,10 +1697,24 @@
   }
 
   .boostore_content {
+    text-align: center;
+    width: 100%;
+    padding-right: 0;
     margin-left: 0;
   }
 
-  .boostore_content h3,
+  .boostore_content h3 {
+    width: 100%;
+  }
+
+  .theme {
+    margin-top: 20px;
+  }
+
+  .visit_boostore_block a {
+    margin-top: 10px;
+  }
+
   .internet_content h3,
   .opportunities div h3 {
     font-size: 26px;
@@ -1527,6 +1739,18 @@
     height: 278px;
   }
 
+  #opportunities {
+    height: calc(100vh - 76px);
+  }
+
+  .opportunities div {
+    width: 85%;
+  }
+
+  #opportunities {
+    margin: 0 0;
+  }
+
   footer {
     height: auto;
     padding: 40px 0;
@@ -1540,10 +1764,6 @@
   footer div h4 {
     font-size: 10px;
     margin-bottom: 3px;
-  }
-
-  .opportunities div {
-    width: 90%;
   }
 
   .rights p {
@@ -1570,6 +1790,14 @@
 
   .rights {
     flex: 1 1 320px;
+  }
+
+  #subscribe {
+    margin: 24px auto;
+  }
+
+  #subscribe input {
+    width: 77%;
   }
 
   .legal_terms,
@@ -1661,4 +1889,59 @@
   .tranding_products_content {
     margin: 15px 0;
   }
+
+  /*Section 'left_side_img' $ 'right_side_img'*/
+  .content {
+    width: 100%;
+    z-index: 2;
+  }
+
+  .content div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #left_side_img,
+  #right_side_img {
+    height: auto;
+    padding-top: 76px;
+    padding-bottom: 50px;
+  }
+
+  #left_side_img img,
+  #right_side_img img {
+    display: none;
+  }
+
+  .content div h3,
+  .section_three_content h3 {
+    font-size: 22px;
+  }
+
+  .content div p {
+    font-size: 12px;
+  }
+
+  /*Section 'tranding_products'*/
+  .tranding_products_wrapper h2 {
+    font-size: 22px;
+  }
+
+  .tranding_products_content {
+    margin-top: 30px;
+  }
+
+  .tranding_products_content p {
+    font-size: 13px;
+  }
+
+  .tranding_products_content {
+    text-align: center;
+  }
+
+  /*Slick slider*/
+  .slick-dots li {
+    margin: 0 0;
+  }
+
 }
